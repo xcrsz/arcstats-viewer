@@ -31,14 +31,13 @@ A GTK3 desktop application for monitoring ZFS ARC (Adaptive Replacement Cache) s
 ## Requirements
 
 #### 1. Operating System
-* FreeBSD or a FreeBSD-derivative is required. The application relies on the `sysctl kstat.zfs.misc.arcstats` command, which is specific to these operating systems.
+* FreeBSD or a FreeBSD-derivative (e.g., GhostBSD) is required. The application relies on the `sysctl kstat.zfs.misc.arcstats` command, which is specific to these operating systems.
 
 #### 2. System Dependencies
 * You must have Python 3, GTK3, and the Python GObject introspection bindings installed. You can install them using the `pkg` package manager:
     ```sh
     sudo pkg install python311 gtk3 py311-gobject
     ```
-    *(Note: Your Python version may differ, e.g., `python39` or `py39-gobject`. Use `pkg search py-gobject` to find the correct package name for your system.)*
 
 ## Installation
 
