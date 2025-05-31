@@ -54,8 +54,10 @@ A GTK3 desktop application for monitoring ZFS ARC (Adaptive Replacement Cache) s
     source .venv/bin/activate
     ```
 
-3.  **Install the application using pip:**
-    This command reads the `setup.py` file and automatically installs the required Python packages (like `matplotlib`).
+3.  **Install the application:**
+    ```sh
+    sudo python3 setup.py install
+    ```
 
 ## Usage
 
