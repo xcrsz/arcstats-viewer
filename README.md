@@ -36,7 +36,7 @@ A GTK3 desktop application for monitoring ZFS ARC (Adaptive Replacement Cache) s
 #### 2. System Dependencies
 * You must have Python 3, GTK3, and the Python GObject introspection bindings installed. You can install them using the `pkg` package manager:
     ```sh
-    sudo pkg install python311 gtk3 py311-pygobject
+    sudo pkg install python311 gtk3 py311-pygobject py311-matplotlib
     ```
 
 ## Installation
