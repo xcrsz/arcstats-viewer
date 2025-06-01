@@ -47,7 +47,7 @@ A GTK3 desktop application for monitoring ZFS ARC (Adaptive Replacement Cache) s
     cd arcstats-viewer
     ```
 
-2.  **(Recommended) Create and activate a Python virtual environment:**
+2.  **(Optional) Create and activate a Python virtual environment:**
     ```sh
     python3 -m venv .venv
     source .venv/bin/activate
